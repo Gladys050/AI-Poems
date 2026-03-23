@@ -7,39 +7,43 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI French Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          id="theme"
-          placeholder="Enter the topic of the French poem "
-          autocomplete="off"
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here.
-        <br />
-        The poem will go here.
-      </div>
-    </main>
-    <footer>
-      This AI project wascoded by
-      <a href="https://github.com/Gladys050" target="_blank">Gladys Monnapule</a
-      >, is
-      <a href="https://github.com/Gladys050/AI-Poems" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://ai-poems-eight.vercel.app/" target="_blank"
-        >hosted on Vercel</a
-      >
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            id="theme"
+            placeholder="Enter the topic of the French poem "
+            autocomplete="off"
+            required
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here.
+          <br />
+          The poem will go here.
+        </div>
+      </main>
+      <footer>
+        This AI project wascoded by
+        <a href="https://github.com/Gladys050" target="_blank"
+          >Gladys Monnapule</a
+        >, is
+        <a href="https://github.com/Gladys050/AI-Poems" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://ai-poems-eight.vercel.app/" target="_blank"
+          >hosted on Vercel</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
