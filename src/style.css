@@ -1,5 +1,5 @@
 body {
-  background-color: ivory;
+  background-color: rgb(224, 224, 220);
   font-family: Arial, Helvetica, sans-serif;
 }
 a {
@@ -35,7 +35,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: azure;
+  color: #272044;
 }
 .submit-button {
   padding: 16px 32px;
@@ -51,13 +51,13 @@ form {
 }
 .poem {
   font-size: 14px;
-  background-color: #fff;
   padding: 20px;
   line-height: 2;
   background-color: white;
   border-left: 3px solid #007bff;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
+  color: rgb(17, 17, 17);
 }
 footer {
   text-align: center;
